@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/">
+
+	<appender name="errors" class="org.apache.log4j.RollingFileAppender">
+		<param name="file" value="errorLogs.log" />
+		<param name="Append" value="true" />
+		<param name="MaxFileSize" value="50MB" />
+		<param name="MaxBackupIndex" value="1" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="[%p Thread:%t %c.%M] - %m - %d%n" />
+		</layout>
+	</appender>
+
+	<appender name="for_debug" class="org.apache.log4j.RollingFileAppender">
+		<param name="file" value="debugLogs.log" />
+		<param name="Append" value="true" />
+		<param name="MaxFileSize" value="250MB" />
+		<param name="MaxBackupIndex" value="1" />
+		<layout class="org.apache.log4j.PatternLayout">
+			<param name="ConversionPattern" value="[%p Thread:%t %c.%M] - %m - %d%n" />
+		</layout>
+	</appender>
+
+	<logger name="debuger">
+		<level value="debug" />
+		<appender-ref ref="for_debug" />
+	</logger>
+	<root>
+		<priority value="error" />
+		<appender-ref ref="errors" />
+	</root>
+
+</log4j:configuration>
