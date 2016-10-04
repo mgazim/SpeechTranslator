@@ -68,10 +68,9 @@ public class AudioInfo
 
 			// do the byte to sample conversion
 			// see AmplitudeEditor for more info
-			final int low = eightBitByteArray[t];
-			t++;
-			final int high = eightBitByteArray[t];
-			t++;
+			final int low = eightBitByteArray[t++];
+			final int high = eightBitByteArray[t++];
+
 			final int sample = (high << 8) + (low & 0x00ff);
 
 			if (sample < sampleMin)

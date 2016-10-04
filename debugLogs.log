@@ -759,3 +759,53 @@
 [DEBUG Thread:Translator debuger.setText] - Recognized and translated text was set - 2016-09-27 18:02:29,988
 [DEBUG Thread:Translator debuger.setText] - Recognized and translated text was set - 2016-09-27 18:02:30,004
 [DEBUG Thread:Translator debuger.setText] - Recognized and translated text was set - 2016-09-27 18:02:30,019
+[DEBUG Thread:AWT-EventQueue-0 debuger.run] - GUI object was created - 2016-10-03 15:05:15,897
+[DEBUG Thread:AWT-EventQueue-0 debuger.actionPerformed] - Browse button was clicked - 2016-10-03 15:05:17,224
+[DEBUG Thread:AWT-EventQueue-0 debuger.actionPerformed] - Opened file: C:\Users\mgazim\workspace\SpeechTranslator\samples\Arabic_AA_DISAMBIG_REJ1_ONE_CHOICE_VUI.wav - 2016-10-03 15:05:27,424
+[DEBUG Thread:AWT-EventQueue-0 debuger.actionPerformed] - Translate button was clicked - 2016-10-03 15:05:29,279
+[DEBUG Thread:Translator debuger.run] - Run translation thread - 2016-10-03 15:05:29,283
+[DEBUG Thread:Translator debuger.run] - Recognition language set to ar-sa - 2016-10-03 15:05:29,378
+[DEBUG Thread:Translator debuger.run] - Start of recognition process - 2016-10-03 15:05:29,378
+[DEBUG Thread:Translator debuger.recognize] - recognize() method started - 2016-10-03 15:05:29,378
+[DEBUG Thread:Translator debuger.<init>] - SplitPanel object initialization - 2016-10-03 15:05:35,128
+[DEBUG Thread:Translator debuger.<init>] - WaveformPanelContainer object initialization - 2016-10-03 15:05:35,132
+[DEBUG Thread:AWT-EventQueue-0 debuger.actionPerformed] - Play audio - 2016-10-03 15:05:44,935
+[DEBUG Thread:AWT-EventQueue-0 debuger.actionPerformed] - Stop audio playing - 2016-10-03 15:05:46,735
+[DEBUG Thread:Java Sound Event Dispatcher debuger.update] - Audio was closed - 2016-10-03 15:05:46,737
+[DEBUG Thread:AWT-EventQueue-0 debuger.actionPerformed] - Undo split point mark - 2016-10-03 15:05:53,575
+[DEBUG Thread:AWT-EventQueue-0 debuger.actionPerformed] - Play audio - 2016-10-03 15:05:57,287
+[DEBUG Thread:AWT-EventQueue-0 debuger.actionPerformed] - Stop audio playing - 2016-10-03 15:05:58,303
+[DEBUG Thread:Java Sound Event Dispatcher debuger.update] - Audio was closed - 2016-10-03 15:05:58,305
+[DEBUG Thread:Java Sound Event Dispatcher debuger.update] - Audio was closed - 2016-10-03 15:05:58,306
+[DEBUG Thread:Translator debuger.recognize] - No split indexes - 2016-10-03 15:06:06,372
+[DEBUG Thread:Translator debuger.run] - RecognizedVoiceObject is null - 2016-10-03 15:06:06,372
+[DEBUG Thread:AWT-EventQueue-0 debuger.actionPerformed] - Translate button was clicked - 2016-10-03 15:06:07,414
+[DEBUG Thread:Translator debuger.run] - Run translation thread - 2016-10-03 15:06:07,415
+[DEBUG Thread:Translator debuger.run] - Recognition language set to ar-sa - 2016-10-03 15:06:07,421
+[DEBUG Thread:Translator debuger.run] - Start of recognition process - 2016-10-03 15:06:07,421
+[DEBUG Thread:Translator debuger.recognize] - recognize() method started - 2016-10-03 15:06:07,421
+[DEBUG Thread:Translator debuger.run] - RecognizedVoiceObject is null - 2016-10-03 15:06:24,286
+[DEBUG Thread:AWT-EventQueue-0 debuger.actionPerformed] - Translate button was clicked - 2016-10-03 15:06:25,230
+[DEBUG Thread:Translator debuger.run] - Run translation thread - 2016-10-03 15:06:25,231
+[DEBUG Thread:Translator debuger.run] - Recognition language set to ar-sa - 2016-10-03 15:06:25,239
+[DEBUG Thread:Translator debuger.run] - Start of recognition process - 2016-10-03 15:06:25,239
+[DEBUG Thread:Translator debuger.recognize] - recognize() method started - 2016-10-03 15:06:25,239
+[DEBUG Thread:Translator debuger.run] - RecognizedVoiceObject is null - 2016-10-03 15:06:26,933
+[DEBUG Thread:AWT-EventQueue-0 debuger.run] - GUI object was created - 2016-10-03 15:53:25,804
+[DEBUG Thread:AWT-EventQueue-0 debuger.actionPerformed] - Browse button was clicked - 2016-10-03 15:53:28,698
+[DEBUG Thread:AWT-EventQueue-0 debuger.run] - GUI object was created - 2016-10-04 13:32:42,178
+[DEBUG Thread:AWT-EventQueue-0 debuger.actionPerformed] - Browse button was clicked - 2016-10-04 13:32:43,424
+[DEBUG Thread:AWT-EventQueue-0 debuger.actionPerformed] - Opened file: C:\Users\mgazim\workspace\SpeechTranslator\samples\Arabic_AA_DISAMBIG_REJ1_ONE_CHOICE_VUI.wav - 2016-10-04 13:33:01,934
+[DEBUG Thread:AWT-EventQueue-0 debuger.actionPerformed] - Play button was clicked - 2016-10-04 13:33:03,711
+[DEBUG Thread:AWT-EventQueue-0 debuger.actionPerformed] - Translate button was clicked - 2016-10-04 13:33:05,899
+[DEBUG Thread:Translator debuger.run] - Run translation thread - 2016-10-04 13:33:05,910
+[DEBUG Thread:Translator debuger.run] - Recognition language set to ar-sa - 2016-10-04 13:33:05,917
+[DEBUG Thread:Translator debuger.run] - Start of recognition process - 2016-10-04 13:33:05,917
+[DEBUG Thread:Translator debuger.recognize] - recognize() method started - 2016-10-04 13:33:05,917
+[DEBUG Thread:Java Sound Event Dispatcher debuger.update] - EventType=STOP close Clip object - 2016-10-04 13:33:06,916
+[DEBUG Thread:Translator debuger.<init>] - SplitPanel object initialization - 2016-10-04 13:33:06,950
+[DEBUG Thread:Translator debuger.<init>] - WaveformPanelContainer object initialization - 2016-10-04 13:33:06,961
+[DEBUG Thread:AWT-EventQueue-0 debuger.actionPerformed] - Play audio - 2016-10-04 13:34:19,975
+[DEBUG Thread:Java Sound Event Dispatcher debuger.update] - Audio was closed - 2016-10-04 13:34:22,975
+[DEBUG Thread:Translator debuger.recognize] - No split indexes - 2016-10-04 13:34:24,225
+[DEBUG Thread:Translator debuger.run] - RecognizedVoiceObject is null - 2016-10-04 13:34:24,225

@@ -110,7 +110,9 @@ public class WaveAudioObject
 			final byte[] monoByte = getMonoByte(stereoStream);
 
 			if (monoByte == null || monoByte.length == 0)
+			{
 				throw new NullPointerException();
+			}
 
 			final InputStream is = new ByteArrayInputStream(monoByte);
 			final AudioInputStream monoStream = new AudioInputStream(is, monoFormat, is.available());
@@ -131,7 +133,9 @@ public class WaveAudioObject
 			final int read = stereoStream.read(buff);
 
 			if (read == 0)
+			{
 				throw new IOException();
+			}
 
 			final byte[] mono = new byte[buff.length / 2];
 
